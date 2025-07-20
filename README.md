@@ -6,6 +6,8 @@ It uses a Kaggle movie dataset on the backend, vector embeddings, and similarity
 
 Check out the backend code [HERE](https://github.com/Sengiria/movie-recommender-backend/tree/main)
 
+**Live Application**: [https://sengiria.github.io/movie-recommender-frontend/](https://sengiria.github.io/movie-recommender-frontend/)
+
 ---
 
 ## Features
