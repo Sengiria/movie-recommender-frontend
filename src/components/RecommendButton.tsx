@@ -1,3 +1,5 @@
+const base = import.meta.env.BASE_URL;
+
 const RecommendButton = ({ onClick }: { onClick: () => void }) => {
   return (
     <button
@@ -8,7 +10,7 @@ const RecommendButton = ({ onClick }: { onClick: () => void }) => {
 
       <div className="overflow-hidden transition-all duration-300 group-hover:w-6 w-0">
         <img
-          src="/popcorn.gif"
+          src={`${base}assets/popcorn.gif`}
           alt="popcorn"
           className="h-6"
         />
