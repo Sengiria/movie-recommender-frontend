@@ -10,7 +10,7 @@ const RecommendButton = ({ onClick }: { onClick: () => void }) => {
 
       <div className="overflow-hidden transition-all duration-300 group-hover:w-6 w-0">
         <img
-          src={`${base}assets/popcorn.gif`}
+          src={`${base}popcorn.gif`}
           alt="popcorn"
           className="h-6"
         />
